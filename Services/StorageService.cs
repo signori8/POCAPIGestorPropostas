@@ -9,7 +9,7 @@ namespace POC.Services
         private static IConfiguration conf;
         public static string UploadDoc(Documento doc) { 
 
-            string connectionString = "DefaultEndpointsProtocol=https;AccountName=pocgestorpropostas;AccountKey=ZXC4U8ok1lqoxyYdzBq4upvAhxe4+nOrt4P1baZqqYnFErgVQA4WyxjTzJa2WLRcEuYNVBjWoaUix9lOgeV+Xg==;EndpointSuffix=core.windows.net";
+            string connectionString = "SUPRIMIDO";
             string containerName = "docspropostas";
             string fileName = Guid.NewGuid().ToString() + doc.Extensao;
 
