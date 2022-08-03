@@ -10,7 +10,7 @@ namespace POC.Services
             try
             {
 
-                string connectionstring = "Endpoint=sb://pocgestorpropostas.servicebus.windows.net/;SharedAccessKeyName=RootManageSharedAccessKey;SharedAccessKey=nU/ophrsCsLPvS6s/vflNyR7tl0okZKl7kxOdCd08Os=";
+                string connectionstring = "";
                 string queueName = "propostas";
 
                 ServiceBusClient client = new ServiceBusClient(connectionstring);
