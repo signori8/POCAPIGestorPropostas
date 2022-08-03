@@ -10,7 +10,7 @@ namespace POC.Services
             try
             {
 
-                string connectionstring = "";
+                string connectionstring = "SUPRIMIDO";
                 string queueName = "propostas";
 
                 ServiceBusClient client = new ServiceBusClient(connectionstring);
